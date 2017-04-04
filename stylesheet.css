@@ -1,0 +1,404 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li{
+
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+
+}
+
+a:hover,
+a:active {
+
+	text-decoration: none;
+}
+
+h1,
+h2,
+h4{
+
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p{
+
+	font-size: 15px;
+	line-height: 21px
+}
+
+.btn{
+
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+
+	
+
+/*NAVIGATION*/
+
+.navbar{
+
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+
+	color: #fff !important;
+	opacity: 0.7;
+}
+
+.navbar a:hover{
+
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+/*HEADER*/
+
+.header{
+
+	height: 990px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 0px;
+	background-image: url(pics/stage.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+	
+}
+
+.header img{
+	margin-top: 350px;
+
+}
+
+
+
+.header ul{
+
+	text-align: auto;
+	font-size: 40px;
+	margin: 0 auto 0 auto;	
+	
+}
+
+.header .fa-facbook{
+
+	color: #3b5998 
+}
+
+.header .fa-linkedin{
+
+	color: #007bb5;
+	
+}
+
+.header .fa-twitter{
+
+	color: #55acee;
+}
+
+
+
+.header li{
+
+	padding: 10px 20px 10px 20px;
+}
+
+
+
+@media(max-width: 768px){
+
+	.header{
+
+		padding: 30px;
+		height: 750px;
+		}
+
+	.header img{
+
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20px;
+	}	
+	}
+
+
+
+	
+
+/*MEDIA*/
+
+ 
+.media{
+
+	margin-top: 0px;
+	padding-top: 50px;
+	background-color: #123456;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	color: #fff;
+}
+
+.media h3{
+
+	font-size: 40px;
+	text-shadow: 5px 2px 5px #2A0A1F;
+}
+
+
+	
+
+
+.media iframe{
+	box-shadow: 5px 5px 10px #2A0A1F;
+	border-radius: 5px;
+}
+
+.media img{
+	box-shadow: 2px 2px 10px #2A0A1F;
+	margin-bottom: 20px;
+
+}
+
+
+.gal{
+	padding-top: 500px;
+}
+
+	
+
+
+
+/*ABOUT*/
+
+.about{
+
+	margin-top: 0px;
+	padding-top: 50px;
+	background-color: #222222;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	color: #fff;
+	padding-bottom: 100px;
+
+
+}
+
+.about h3{
+
+	font-size: 40px;
+	padding-bottom: 50px;
+	text-shadow: 2px 2px #2A0A1F;
+	
+}
+
+.about h4{
+	color: white;
+	text-align: center;
+
+}
+
+.bgcolor {
+	background-color: #123456;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+		
+	
+}
+
+.about p{
+	font-size: 18px;
+}
+
+
+
+/*BODY OF WORK*/
+
+.bodyofwork{
+
+	margin-top: 0px;
+	padding-top: 50px;
+	background-color: #123456;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	color: #fff;
+}
+
+.bodyofwork h3{
+
+	font-size: 40px;
+	padding-bottom: 50px;
+	text-shadow: 2px 2px #2A0A1F;
+
+}
+
+.bodyofwork ul{
+
+	text-align: left;
+	background: grey;
+	border-radius: 4px;
+	padding: 10px 10px 10px 20px;
+	box-shadow: 2px 2px 10px #2A0A1F;
+
+
+}
+
+.bodyofwork li{
+
+	margin-top: 3px;
+}
+
+.bodyofwork h4{
+
+	color: white;
+	padding: 20px 0 0 0;
+
+}
+
+.bodyofwork strong{
+
+	color: #2A0A1F;
+}
+
+
+
+/*TESTIMONIALS*/
+
+.testimonials{
+
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 200px;
+	background-color: #222222;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	color: #fff;
+
+
+}
+
+.testimonials img{
+
+	height: 300px;
+	width: 300px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+	box-shadow: 2px 2px 10px #2A0A1F;
+}
+
+.testimonials h3{
+
+	font-size: 40px;
+	padding-bottom: 50px;
+	text-shadow: 2px 2px #2A0A1F;
+
+}
+
+.testimonials h4{
+
+	padding-top: 30px;
+	color: white;
+}
+
+/*CONTACT*/
+
+.contact{
+
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #123456;
+}
+
+.contact .input-group{
+
+	margin-bottom: 25px;
+}
+
+.contact .form-control{
+
+	border-radius: 0 !important;
+}
+
+.contact span{
+
+	border-radius: 0 !important;
+
+}
+
+.contact .btn{
+
+	border-radius: 0;
+	width: 50%;
+	font-size: 15px;
+	background-color: #2A0A1F;
+	color: #fff;
+	box-shadow: 2px 2px 10px #2A0A1F;
+
+}
+
+.contact .btn:hover{
+
+	background-color: #a85959;
+	
+}
+
+.footer ul {
+	font-size: 40px;
+}
+
+.footer li {
+	padding: 10px 20px 10px 20px;
+}
+
+.footer a:hover{
+	opacity: 1;
+	color: #FFFFFF;
+}
+
+.footer .fa-facbook{
+
+	color: #3b5998 
+}
+
+.footer .fa-linkedin{
+
+	color: #007bb5;
+}
+
+.footer .fa-twitter{
+
+	color: #55acee;
+}
+
